@@ -49,11 +49,5 @@ function handleUserNamePanelSubmit (event) {
     userNameCont.classList.add('hidden');
     messageCont.classList.remove('hidden');
 
-    listenForStudents();
 }
 userNamePanel.addEventListener('submit', handleUserNamePanelSubmit);
-
-
-function listenForStudents() {
-
-}
